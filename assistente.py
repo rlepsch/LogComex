@@ -22,7 +22,7 @@ def query_by_column(df, column_name, value):
 
 # Função para interagir com o ChatGPT e processar a pergunta
 def chat_with_gpt(df, prompt):
-    openai.api_key = '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'  # Substitua pela sua chave de API
+    openai.api_key = '**********'  # Substitua pela sua chave de API
 
     try:
         response = openai.ChatCompletion.create(
